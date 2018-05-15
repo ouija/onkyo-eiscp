@@ -267,8 +267,11 @@ def filter_for_message(getter_func, msg):
         # I managed to see any response, and only after 300ms
         # reproducably, so use a generous timeout.
         if time.time() - start > 5.0:
-            raise ValueError('Timeout waiting for response.')
-
+        # Fix for responses to HDMI CEC commands
+            if "CTV" or "CDV" in msg:
+                return msg
+            else:
+                raise ValueError('Timeout waiting for response.')
 
 def parse_info(data):
     response = eISCPPacket.parse(data)

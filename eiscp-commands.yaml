@@ -5767,6 +5767,300 @@ dock:
         name: query
         description: gets the Net/USB Status
         models: set1
+hdmi-cec:
+  CTV:
+    name: ctv
+    description: HDMI CEC commands for TV
+    values:
+      POWER:
+        name: power
+        description: Power command
+        models: set1
+      PWRON:
+        name: 'on'
+        description: Power On command
+        models: set1
+      PWROFF:
+        name: [standby, "off"]
+        description: Power Off / Standby command
+        models: set1
+      CHUP:
+        name: chup
+        description: Channel Up command
+        models: set1
+      CHDN:
+        name: chdn
+        description: Channel Down command
+        models: set1
+      VLUP:
+        name: vlup
+        description: Volume Up command
+        models: set1
+      VLDN:
+        name: vldn
+        description: Volume Down command
+        models: set1
+      MUTE:
+        name: mute
+        description: Mute command
+        models: set1
+      DISP:
+        name: disp
+        description: Display command
+        models: set1
+      INPUT:
+        name: input
+        aliases: ['source']
+        description: Input command
+        models: set1
+      '1':
+        name: '1'
+        description: 1 command
+        models: set1
+      '2':
+        name: '2'
+        description: 2 command
+        models: set1
+      '3':
+        name: '3'
+        description: 3 command
+        models: set1
+      '4':
+        name: '4'
+        description: 4 command
+        models: set1
+      '5':
+        name: '5'
+        description: 5 command
+        models: set1
+      '6':
+        name: '6'
+        description: 6 command
+        models: set1
+      '7':
+        name: '7'
+        description: 7 command
+        models: set1
+      '8':
+        name: '8'
+        description: 8 command
+        models: set1
+      '9':
+        name: '9'
+        description: 9 command
+        models: set1
+      '0':
+        name: '0'
+        description: 0 command
+        models: set1
+      CLEAR:
+        name: clear
+        description: Clear command
+        models: set1
+      SETUP:
+        name: setup
+        description: Setup command
+        models: set1
+      GUIDE:
+        name: guide
+        description: Guide command
+        models: set1
+      PREV:
+        name: prev
+        description: Previous command
+        models: set1
+      UP:
+        name: up
+        description: Up command
+        models: set1
+      DOWN:
+        name: down
+        description: Down command
+        models: set1
+      LEFT:
+        name: left
+        description: Left command
+        models: set1
+      RIGHT:
+        name: right
+        description: Right command
+        models: set1
+      ENTER:
+        name: enter
+        description: Enter command
+        models: set1
+      RETURN:
+        name: return
+        description: Return command
+        models: set1
+      A:
+        name: a
+        description: A command
+        models: set1
+      B:
+        name: b
+        description: B command
+        models: set1
+      C:
+        name: c
+        description: C command
+        models: set1
+      D:
+        name: d
+        description: D command
+        models: set1
+  CDV:
+    name: cdv
+    description: HDMI CEC commands for DVD/BD Player
+    values:
+      POWER:
+        name: power
+        description: Power command
+        models: set1
+      PWRON:
+        name: 'on'
+        description: Power On command
+        models: set1
+      PWROFF:
+        name: [standby, "off"]
+        description: Power Off / Standby command
+        models: set1
+      PLAY:
+        name: play
+        description: Play command
+        models: set1
+      STOP:
+        name: stop
+        description: Stop command
+        models: set1
+      SKIP.F:
+        name: next
+        description: Next Track command
+        models: set1
+      SKIP.R:
+        name: prev
+        description: Previous Track command
+        models: set1
+      FF:
+        name: [ff, fast-forward]
+        description: Fast Forward command
+        models: set1
+      REW:
+        name: [rew, rewind]
+        description: Rewind command
+        models: set1
+      PAUSE:
+        name: pause
+        description: Pause command
+        models: set1
+      SETUP:
+        name: setup
+        description: Setup command
+        models: set1
+      TOPMENU:
+        name: topmenu
+        description: Top Menu command
+        models: set1
+      MENU:
+        name: menu
+        description: Menu command
+        models: set1
+      UP:
+        name: up
+        description: Up command
+        models: set1
+      DOWN:
+        name: down
+        description: Down command
+        models: set1
+      LEFT:
+        name: left
+        description: Left command
+        models: set1
+      RIGHT:
+        name: right
+        description: Right command
+        models: set1
+      ENTER:
+        name: enter
+        description: Enter command
+        models: set1
+      RETURN:
+        name: return
+        description: Return command
+        models: set1   
+      OP/CL:
+        name: [open, close, op/cl, open/close]
+        description: Open/Close Tray command
+        models: set1
+      ANGLE:
+        name: angle
+        description: Angle command
+        models: set1
+      '1':
+        name: '1'
+        description: 1 command
+        models: set1
+      '2':
+        name: '2'
+        description: 2 command
+        models: set1
+      '3':
+        name: '3'
+        description: 3 command
+        models: set1
+      '4':
+        name: '4'
+        description: 4 command
+        models: set1
+      '5':
+        name: '5'
+        description: 5 command
+        models: set1
+      '6':
+        name: '6'
+        description: 6 command
+        models: set1
+      '7':
+        name: '7'
+        description: 7 command
+        models: set1
+      '8':
+        name: '8'
+        description: 8 command
+        models: set1
+      '9':
+        name: '9'
+        description: 9 command
+        models: set1
+      '0':
+        name: '0'
+        description: 0 command
+        models: set1
+      DISP:
+        name: disp
+        description: Display command
+        models: set1
+      CLEAR:
+        name: clear
+        description: Clear command
+        models: set1      
+      A:
+        name: a
+        description: A command
+        models: set1
+      B:
+        name: b
+        description: B command
+        models: set1
+      C:
+        name: c
+        description: C command
+        models: set1
+      D:
+        name: d
+        description: D command
+        models: set1
 modelsets:
   set1:
   - /515AE(Ether)
