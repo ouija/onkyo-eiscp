@@ -62,6 +62,13 @@ Finally, you are of course able to manually specify the device to connect to::
 
     $ onkyo --host 172.20.0.144 volume=55
     $ onkyo --host 172.20.0.144 --port 42424 volume=55
+    
+**This forked version has been updated to allow for commands to be sent to CEC devices connected via HDMI**
+
+To use this, two new `zones` have been added; Specifically `CTV` (for controlleding Televisions) and `CDV` (for controlling Bluray/DVD players).  Commands can be issued as follows::
+
+    $ onkyo --host 192.168.1.100 CTV POWER
+
 
 To find out which commands are available, use the ``--help-commands`` option.
 
