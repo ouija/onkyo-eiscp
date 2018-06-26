@@ -1,5 +1,5 @@
-Onkyo eISCP Control
-===================
+Onkyo eISCP Control [with HDMI-CEC support!]
+============================================
 
 This is a Python library to control and interact with Onkyo receivers
 over the network. It is also a ready-made command line script you
