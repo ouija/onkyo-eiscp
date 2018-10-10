@@ -18,6 +18,12 @@ Installation
 Most recent released version::
 
     $ easy_install onkyo-eiscp
+    
+Update to this version::
+
+    Replace the ``commands.py`` and ``core.py`` files under the eiscp package directory for python on your machine, you should be good to go.
+
+
 
 
 Usage
