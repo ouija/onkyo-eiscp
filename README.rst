@@ -21,7 +21,7 @@ Most recent released version::
     
 Update to this version::
 
-    Replace the commands.py and core.py files under the eiscp package directory for python on your machine, you should be good to go.
+    Replace the /eiscp/commands.py and /eiscp/core.py files under the eiscp package directory for python on your machine, you should be good to go.
 
 
 
